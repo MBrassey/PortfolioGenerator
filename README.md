@@ -11,6 +11,9 @@
 <h6><p align="right">[ Click the below images to view the <a href="https://MBrassey.github.io/PortfolioGenerator/">webapplication</a> ]</p></h6>
 
 > node app.js
+
 [<p align="center"><img src="src/img/Preview.png">](https://MBrassey.github.io/PortfolioGenerator/)
+
 > Index.html & Style.css are generated under dist
+
 [<p align="center"><img src="src/img/Preview2.png">](https://MBrassey.github.io/PortfolioGenerator/)
