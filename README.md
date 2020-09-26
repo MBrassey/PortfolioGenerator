@@ -8,6 +8,12 @@
 - [x] [Modify the HTML template to handle more data](https://github.com/MBrassey/PortfolioGenerator/issues/4)
 - [x] [Generate entire website](https://github.com/MBrassey/PortfolioGenerator/issues/5)
 - [x] [Finishing Touches](https://github.com/MBrassey/PortfolioGenerator/issues/6)
+
+###### Requirements
+
+* node.js
+* npm
+
 <h6><p align="right">[ Click the below images to view the <a href="https://MBrassey.github.io/PortfolioGenerator/">webapplication</a> ]</p></h6>
 
 > node app.js
