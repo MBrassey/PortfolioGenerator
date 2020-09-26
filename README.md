@@ -1,6 +1,6 @@
 # Portfolio Generator
 
-> Menu driven command line utility written in Node.js to generate a CSS/HTML portfolio displaying GitHub projects.  
+> Menu driven command line utility written in Node.js to generate a CSS/HTML portfolio displaying GitHub projects.
 
 - [x] [Capture user input](https://github.com/MBrassey/PortfolioGenerator/issues/1)
 - [x] [Generate the HTML file](https://github.com/MBrassey/PortfolioGenerator/issues/2)
