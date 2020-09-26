@@ -1,5 +1,5 @@
 {
-  "name": "portfoliogenerator",
+  "name": "Portfolio Generator",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/MBrassey/PortfolioGenerator.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "MBrassey",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/MBrassey/PortfolioGenerator/issues"
   },
