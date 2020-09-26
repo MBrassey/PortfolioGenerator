@@ -14,6 +14,6 @@
 
 [<p align="center"><img src="src/img/Preview.png">](https://MBrassey.github.io/PortfolioGenerator/)
 
-> Index.html & Style.css are generated under ./dist/
+> Index.html & style.css are generated under ./dist/
 
 [<p align="center"><img src="src/img/Preview2.png">](https://MBrassey.github.io/PortfolioGenerator/)
