@@ -4,19 +4,19 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MBrassey/PortfolioGenerator.git"
+      "type": "git",
+      "url": "git+https://github.com/MBrassey/PortfolioGenerator.git"
   },
   "author": "MBrassey",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/MBrassey/PortfolioGenerator/issues"
+      "url": "https://github.com/MBrassey/PortfolioGenerator/issues"
   },
   "homepage": "https://github.com/MBrassey/PortfolioGenerator#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+      "inquirer": "^7.3.3"
   }
 }

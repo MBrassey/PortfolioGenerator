@@ -1,47 +1,49 @@
 const inquirer = require("inquirer");
-const { writeFile, copyFile } = require('./utils/generate-site.js');
-const generatePage = require('./src/page-template');
+const { writeFile, copyFile } = require("./utils/generate-site.js");
+const generatePage = require("./src/page-template");
+const arg = process.argv[2];
+const version = "0.0.1";
 
 const promptUser = () => {
     return inquirer.prompt([
         {
-            type: 'input',
-            name: 'name',
-            message: 'What is your name? (Required)',
-            validate: nameInput => {
+            type: "input",
+            name: "name",
+            message: "What is your name? (Required)",
+            validate: (nameInput) => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter your name!');
+                    console.log("Please enter your name!");
                     return false;
                 }
-            }
+            },
         },
         {
             type: "input",
-            name: 'github',
-            message: 'Enter your GitHub Username (Required)',
-            validate: usernameInput => {
+            name: "github",
+            message: "Enter your GitHub Username (Required)",
+            validate: (usernameInput) => {
                 if (usernameInput) {
                     return true;
                 } else {
-                    console.log('Please enter your username!');
+                    console.log("Please enter your username!");
                     return false;
                 }
-            }
+            },
         },
         {
-            type: 'confirm',
-            name: 'confirmAbout',
+            type: "confirm",
+            name: "confirmAbout",
             message: 'Would you like to enter some information about yourself for an "About" section?',
-            default: true
+            default: true,
         },
         {
-            type: 'input',
-            name: 'about',
-            message: 'Provide some information about yourself:',
-            when: ({ confirmAbout }) => confirmAbout
-        }
+            type: "input",
+            name: "about",
+            message: "Provide some information about yourself:",
+            when: ({ confirmAbout }) => confirmAbout,
+        },
     ]);
 };
 
@@ -50,6 +52,7 @@ const promptProject = (portfolioData) => {
     if (!portfolioData.projects) {
         portfolioData.projects = [];
     }
+
     console.log(`
   =================
   Add a New Project
@@ -117,21 +120,26 @@ const promptProject = (portfolioData) => {
         });
 };
 
-promptUser()
-  .then(promptProject)
-  .then(portfolioData => {
-    return generatePage(portfolioData);
-  })
-  .then(pageHTML => {
-    return writeFile(pageHTML);
-  })
-  .then(writeFileResponse => {
-    console.log(writeFileResponse);
-    return copyFile();
-  })
-  .then(copyFileResponse => {
-    console.log(copyFileResponse);
-  })
-  .catch(err => {
-    console.log(err);
-  });
+// (-h) Help Menu
+if (arg === "-v") {
+    console.log("Portfolio Generator Version: " + version);
+} else {
+    promptUser()
+        .then(promptProject)
+        .then((portfolioData) => {
+            return generatePage(portfolioData);
+        })
+        .then((pageHTML) => {
+            return writeFile(pageHTML);
+        })
+        .then((writeFileResponse) => {
+            console.log(writeFileResponse);
+            return copyFile();
+        })
+        .then((copyFileResponse) => {
+            console.log(copyFileResponse);
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+}
