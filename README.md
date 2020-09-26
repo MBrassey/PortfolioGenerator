@@ -9,7 +9,7 @@
 - [x] [Generate entire website](https://github.com/MBrassey/PortfolioGenerator/issues/5)
 - [x] [Finishing Touches](https://github.com/MBrassey/PortfolioGenerator/issues/6)
 
-###### Requirements
+#### Requirements
 
 * node.js
 * npm
