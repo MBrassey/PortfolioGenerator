@@ -89,6 +89,13 @@ nav a:hover {
   background-color: var(--dark);
 }
 
+.copyleft {
+  display: inline-block;
+  font-weight: bold;
+  transform: rotate(180deg);
+  padding-bottom: 2px;
+}
+
 .page-title {
   text-align: center;
   width: 100%;
