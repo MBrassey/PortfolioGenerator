@@ -136,7 +136,7 @@ if (arg === "-h") {
 } else if (arg === "-l") {
     console.log("Licensed under the GNU General Public License v3.0");
 } else if (arg === "-a") {
-    console.log("Menu driven command line utility written in Node.js to generate a CSS/HTML portfolio displaying GitHub projects.");
+    console.log("Portfolio Generator is a menu driven command line utility written in Node.js to generate a CSS/HTML portfolio displaying GitHub projects.");
 } else {
     promptUser()
         .then(promptProject)
