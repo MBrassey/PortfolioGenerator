@@ -120,7 +120,7 @@ const promptProject = (portfolioData) => {
         });
 };
 
-// (-h) Help Menu
+// (-v) Display Version
 if (arg === "-v") {
     console.log("Portfolio Generator Version: " + version);
 } else {
