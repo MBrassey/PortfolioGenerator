@@ -16,9 +16,8 @@
 
 <h6><p align="right">[ Click the below images to view the <a href="https://MBrassey.github.io/PortfolioGenerator/">webapplication</a> ]</p></h6>
 
-> npm i
-
-> node app.js
+    npm i
+    node app.js
 
 [<p align="center"><img src="src/img/Preview.png">](https://MBrassey.github.io/PortfolioGenerator/)
 
