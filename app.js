@@ -120,9 +120,23 @@ const promptProject = (portfolioData) => {
         });
 };
 
-// (-v) Display Version
-if (arg === "-v") {
+// Display Argument Data
+if (arg === "-h") {
+    console.log(`
+    Usage: node app.js [-h |-v |-l |-a ]
+
+    [options]
+
+    -h          Display this message.
+    -v          Show version.
+    -l          Show license info.
+    -a          What is PortfolioGenerator?
+`);} else if (arg === "-v") {
     console.log("Portfolio Generator Version: " + version);
+} else if (arg === "-l") {
+    console.log("Licensed under the GNU General Public License v3.0");
+} else if (arg === "-a") {
+    console.log("Menu driven command line utility written in Node.js to generate a CSS/HTML portfolio displaying GitHub projects.");
 } else {
     promptUser()
         .then(promptProject)
