@@ -14,6 +14,10 @@
 * node.js
 * npm
 
+#### Installation:
+
+    npm i
+
 <h6><p align="right">[ Click the below images to view the <a href="https://MBrassey.github.io/PortfolioGenerator/">webapplication</a> ]</p></h6>
 
     Usage: node app.js [-h |-v |-l |-a ]
