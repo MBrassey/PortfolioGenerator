@@ -123,7 +123,7 @@ const promptProject = (portfolioData) => {
 // Display Argument Data
 if (arg === "-h") {
     console.log(`
-    Usage: node app.js [-h |-v |-l |-a ]
+    Usage: node app.js [ -h | -v | -l | -a ]
 
     [options]
 
