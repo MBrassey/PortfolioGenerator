@@ -22,7 +22,7 @@ Menu driven command line utility written in Node.js to generate a CSS/HTML portf
 
     npm i
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/PortfolioGenerator/">webapplication</a></p></h6>
+#### Usage
 
     Usage: node app.js [ -h | -v | -l | -a ]
 
@@ -32,6 +32,8 @@ Menu driven command line utility written in Node.js to generate a CSS/HTML portf
         -v          Show version.
         -l          Show license info.
         -a          What is PortfolioGenerator?
+
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/PortfolioGenerator/">webapplication</a></p></h6>
 
 [<p align="center"><img src="src/img/Preview.png">](https://MBrassey.github.io/PortfolioGenerator/)
 
