@@ -2,6 +2,8 @@
 
 Menu driven command line utility written in Node.js to generate a CSS/HTML portfolio displaying GitHub projects.
 
+![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)
+
 #### Issues
 
 - [x] [Capture user input](https://github.com/MBrassey/PortfolioGenerator/issues/1)
